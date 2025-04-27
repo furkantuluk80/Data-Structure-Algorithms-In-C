@@ -11,6 +11,18 @@
 ==================================================================
 */
 
+
+
+
+/**
+ * @brief 
+ * Diziyi Bubble Sort algoritması kullanarak küçükten büyüğe sıralar.
+ * Bubble Sort algoritması, ardışık elemanları karşılaştırarak büyük olanı sağa taşır.
+ * Her geçişte en büyük eleman dizi sonunda "baloncuk gibi" yükselir.
+ *
+ * @param [UINT16 array] Sıralanacak tamsayı dizisi
+ * @param [UINT16 n    ] Dizinin eleman sayısı
+ */
 void my_bubble_sort(UINT16 array[], UINT16 n) {
     
     UINT16 i = 0;   
